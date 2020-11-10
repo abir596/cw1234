@@ -3,6 +3,31 @@
 <html>
     <head>
         <title>First Webpage</title>
+        <style>
+            h1{
+                color: red;
+                text-align: center;
+            }
+            #CSE{
+                color: green;
+            }
+            .lang{
+                color: orange;
+            }
+            p{
+                font-size: 18px;
+            }
+            body{
+                background-color: wheat;
+                margin: 20px;
+            }
+            #tb{
+                padding-left: 20px;
+            }
+            li{
+                width: 500px;
+            }
+        </style>
     </head>
     <body>
         <h1>My Mailing Address</h1>
@@ -10,8 +35,8 @@
             <p>ID: 1721002</p>
             <p>Email: 1721002@iub.edu.bd</p>
         <h2>Qualifications:</h2>
-            <p>Currently pursuing Bachelors Degree in Computer Science & Engineering</p>
-            <p>I know web programming languages like HTML, CSS & JAVASCRIPT</p>
+            <div id="CSE">Currently pursuing Bachelors Degree in Computer Science & Engineering</div>
+            <p class="lang">I know web programming languages like HTML, CSS & JAVASCRIPT</p>
         <h3>List Of my previous experiences</h3>
             <ul>
                 <li>Web Developer</li>
@@ -20,7 +45,7 @@
             </ul>
         <p>URL: <a href="https://www.google.com">Search Engine</a></p>
         <h3>Table:</h3>
-        <table>
+        <table id="tb">
             <tr>
                 <th>ODD</th>
                 <th>EVEN</th>
