@@ -1,1 +1,24 @@
 /* Your external CSS styles go here */
+body {
+    background-color: wheat;
+    margin: 20px;
+}
+h1 {
+    color: red;
+    text-align: center;
+}
+#CSE {
+    color: green;
+}
+.lang {
+    color: orange;
+}
+p {
+    font-size: 18px;
+}
+li {
+    width: 500px;
+}
+#tb {
+    padding-left: 20px;
+}
