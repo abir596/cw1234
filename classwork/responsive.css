@@ -1,1 +1,16 @@
 /* Your responsive CSS styles go here */
+@media(max-width:499px){
+    p{
+        color: red;
+    }
+}
+@media(min-width:1001px){
+    p{
+        color: green;
+    }
+}
+@media(min-width:768px) and (max-width:991px){
+    p{
+        color: blue;
+    }
+}
